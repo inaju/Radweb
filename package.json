@@ -1,0 +1,24 @@
+{
+  "name": "radweb",
+  "version": "1.0.0",
+  "description": "This is a web app that allows files to be shared between computer(laptops or desktops) that have wifi and hotspot enabled",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inaju/radweb.git"
+  },
+  "author": "Mitchel-Inaju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inaju/radweb/issues"
+  },
+  "homepage": "https://github.com/inaju/radweb#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "formidable": "^1.2.1",
+    "fs": "0.0.1-security"
+  }
+}

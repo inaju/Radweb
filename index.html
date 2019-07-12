@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <div class="uploads">
+      <div class="fileupload"><!--this is a single file upload -->
+        <h2>this is a single file upload</h2>
+        <form action="fileupload" method="post" enctype="multipart/form-data">
+        <input type="file" name="filetoupload"><br>
+
+
+        <input type="submit">
+        </form>
+      </div>
+
+        <div class="folderupload">
+          <h2>this is a folder upload</h2>
+          <form action="folderupload" method="post" enctype="multipart/form-data">
+
+          <input type="file" id="ctrl" name='folderupload' webkitdirectory directory multiple/>
+          <input type="submit">
+          </form>
+
+        </div>
+    </div>
+
+    <div class="link" id='upload_div'>
+      <br>
+      <br>
+      <a href="#uploads" id='upload_link'>Go back to upload page</a>
+
+    </div>
+
+
+  </body>
+</html>
